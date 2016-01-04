@@ -1,0 +1,135 @@
+.grid{
+	list-style:none;
+}
+.grid.grid4 .item{
+	width:25%;
+	float:left;
+	padding:15px;
+}
+#wrapper{
+	width:1000px;
+	margin:0 auto;
+}
+.main{
+	float:left;
+	width:800px;
+}
+.right{
+	float:right;
+	margin-left:10px;
+	width:190px;
+}
+
+/* GRID PRODUCTS */
+.product-info{
+	text-align:center;
+	margin-top:10px;
+}
+.product-brand{
+	font-weight:bold;
+}
+.list-price{
+	text-align:center;
+}
+.list-price .sale-price {
+	font-weight:bold;
+	
+}
+.list-price .sale-price,
+.list-price .retail-price{
+	clear:both;
+	display:block;
+}
+.list-price .sym{
+	
+}
+.list-price .retail-price{
+	text-decoration:line-through;
+}
+select{
+	padding:8px;
+}
+.button{
+	background:#000;
+	color:#fff;
+	border:none;
+	padding:10px;
+	cursor:pointer;
+	text-decoration:none;
+}
+.button:hover{
+	opacity:.8;
+}
+.button.style2{
+	background:#DFAA2F;
+}
+.button.style3{
+	background:#D2004F;
+}
+
+/* TABLE */
+
+table.table {
+    width: 100%;
+}
+.table th, .table td {
+    padding: 15px;
+    text-align: left;
+	vertical-align:middle;
+	border-bottom: 1px solid #ddd;
+}
+.table.medium th, .table.medium td{
+	padding: 5px;
+}
+.table tbody tr:hover {background-color: #f5f5f5}
+.table  tbody tr:nth-child(2n+1) {background-color: #eeeeee}
+
+.table.no-style td{
+	border-bottom: none;
+}
+.table.no-style  tbody tr:nth-child(2n+1) {background-color: transparent}
+.table.no-style td{
+	padding:2px 15px;
+}
+.table.no-style tbody tr:hover {
+	background:none;
+}
+/* COMMON */
+h2.head-title{
+	font-size:18px;
+	margin:15px 0;
+}
+.txt{
+	border:1px solid #ccc;
+	padding:5px 10px;
+}
+.w50p{
+	width:50%;
+}
+h3{
+	font-size:120%;
+}
+.tit-line{
+	border-bottom:1px solid #ccc;
+}
+td.value{
+	font-weight:bold;
+}
+.f-red{
+	color:#f00;
+}
+/* CHECKOUT */
+.checkout-bottom{
+	margin:20px 0;
+}
+.checkout-list {
+}
+.w120{
+	width:120px;
+}
+.w60{
+	width:60px;
+}
+.float-right,.checkout-bottom td.value{
+	float:right;
+}
